@@ -1,14 +1,15 @@
 {
   "name": "git-hash-package",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Get git hash and set in package.json",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "git-hash-package"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Metnew/git-hash-package.git"
+    "url": "git+https://github.com/axi92/git-hash-package.git"
   },
   "keywords": [
     "git",
@@ -22,26 +23,25 @@
     "name": "Vladimir Metnew",
     "email": "vladimirmetnew@gmail.com"
   },
+  "maintainers": [
+    {
+      "name": "axi92"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Metnew/git-hash-package/issues"
+    "url": "https://github.com/axi92/git-hash-package/issues"
   },
   "bin": {
     "git-hash-package": "./index.js"
   },
-  "homepage": "https://github.com/Metnew/git-hash-package#readme",
+  "homepage": "https://github.com/axi92/git-hash-package#readme",
   "dependencies": {
-    "chalk": "^2.3.0",
-    "git-rev-sync": "^1.9.1",
-    "minimist": "^1.2.0",
-    "pkg-up": "^2.0.0",
-    "read-pkg": "^3.0.0",
-    "read-pkg-up": "^3.0.0",
-    "write-pkg": "^3.1.0"
-  },
-  "git": {
-    "short": "52780ec",
-    "long": "52780ecb2af126f06b4a7abb7438389ccacda6d4",
-    "branch": "master"
+    "git-rev-sync": "3.0.2",
+    "minimist": "1.2.6",
+    "pkg-up": "4.0.0",
+    "read-pkg": "7.1.0",
+    "read-pkg-up": "9.1.0",
+    "write-pkg": "5.1.0"
   }
 }
