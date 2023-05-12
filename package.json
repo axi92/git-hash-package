@@ -38,7 +38,7 @@
   "homepage": "https://github.com/axi92/git-hash-package#readme",
   "dependencies": {
     "git-rev-sync": "3.0.2",
-    "minimist": "1.2.7",
+    "minimist": "1.2.8",
     "pkg-up": "4.0.0",
     "read-pkg": "7.1.0",
     "read-pkg-up": "9.1.0",
