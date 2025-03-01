@@ -40,7 +40,7 @@
     "git-rev-sync": "3.0.2",
     "minimist": "1.2.8",
     "pkg-up": "4.0.0",
-    "read-pkg": "8.0.0",
+    "read-pkg": "9.0.1",
     "read-pkg-up": "10.1.0",
     "write-pkg": "6.0.0"
   }
